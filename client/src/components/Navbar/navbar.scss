@@ -1,0 +1,17 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+
+    .right{
+        display: flex;
+        gap: 10px;
+
+        .logout{
+
+            span{
+                cursor: pointer;
+                color: red;
+            }
+        }
+    }
+}

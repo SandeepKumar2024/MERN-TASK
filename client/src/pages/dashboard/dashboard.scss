@@ -1,0 +1,49 @@
+.dashboard{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    
+
+    .dash_top{
+        flex: 0.1;
+        background-color: rgb(134, 134, 221);
+        color: white;
+        padding: 0;
+        
+        
+
+        ul{
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            font-size: 18px;
+           
+
+            .ul_left{
+                display: flex;
+                gap: 6rem;
+                li{
+                    cursor: pointer;
+                }
+            }
+            .ul_right{
+                display: flex;
+                gap: 6rem;
+                margin-right: 10px;
+                li{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .dash_bott{
+        // background-color: red;
+        flex: 9;
+        // height: 100vh;
+
+       
+
+    }
+}

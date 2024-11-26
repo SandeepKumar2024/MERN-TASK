@@ -1,0 +1,48 @@
+
+.form{
+
+    height: 80vh;
+    // background-color: red
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 20rem;
+    span{
+        font-size: 20px;
+        color: rgb(13, 68, 13);
+    }
+
+    div{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        // justify-content: center;
+
+        .name{
+            width: 20rem;
+        }
+        .email{
+            width: 20rem;
+        }
+        .mobile{
+            width: 10rem;
+        }
+        input{
+            // border: none;
+            outline: none;
+            padding: 5px;
+
+            
+            
+        }
+    }
+    button{
+        width: 10rem;
+        margin-left: 10rem;
+        padding: 8px;
+        border: none;
+        background-color: rgb(115, 115, 180);
+        color: white;
+        cursor: pointer;
+    }
+}

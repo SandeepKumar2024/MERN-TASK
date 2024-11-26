@@ -1,0 +1,95 @@
+.employee_table {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .table_header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .t_left {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .t_right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .total_count {
+    margin-right: 20px;
+  }
+  
+  .search_bar input {
+    padding: 5px;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  
+  .create_employee {
+    padding: 6px 12px;
+    font-size: 14px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .create_employee:hover {
+    background-color: #45a049;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .action button {
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .edit {
+    background-color: #ffa500;
+    color: white;
+  }
+  
+  .delete {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    padding: 8px 16px;
+    margin: 0 5px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .pagination button.active {
+    background-color: #4caf50;
+    color: white;
+  }
+  
